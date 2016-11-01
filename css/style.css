@@ -1,0 +1,96 @@
+body {
+  font-family: sans-serif;
+  font-size: 14px;
+  min-width: 380px;
+  min-height: 250px;
+}
+
+#intro {
+  font-family: VT323, sans-serif !important;
+  font-size: 18px;
+  padding: 10px;
+}
+
+h2 {
+  margin: 0px !important;
+}
+
+.section {
+  width: 425px;
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  display: flex; 
+
+  -webkit-box-flex-direction: row;
+  -moz-box-flex-direction: row;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+
+  -webkit-box-flex-wrap: wrap;
+  -moz-box-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+
+  -webkit-box-justify-content: center;
+  -moz-box-justify-content: center;
+  -webkit-justify-content: center;
+  -ms-justify-content: center;
+  justify-content: center;
+
+  -webkit-box-flex-align-items: center;
+  -moz-box-flex-align-items: center;
+  -webkit-flex-align-items: center;
+  -ms-flex-align-items: center;
+  align-items: center;
+}
+
+.emoji {
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  display: flex; 
+
+  -webkit-box-justify-content: center;
+  -moz-box-justify-content: center;
+  -webkit-justify-content: center;
+  -ms-justify-content: center;
+  justify-content: center;
+
+  -webkit-box-flex-align-items: center;
+  -moz-box-flex-align-items: center;
+  -webkit-flex-align-items: center;
+  -ms-flex-align-items: center;
+  align-items: center;
+
+  padding: 5px;
+  padding-right: 5px;
+  padding-left: 5px;
+  min-width: 30px;
+  margin: 5px;
+  font-size: 20px;
+  background-color: white;
+  border: none;
+  border-radius: 20%;
+  height: 35px;
+}
+
+.emoji:hover {
+  background-color: lightgrey;
+  cursor: pointer; 
+
+  -o-transition:.3s;
+  -ms-transition:.3s;
+  -moz-transition:.3s;
+  -webkit-transition:.3s;
+  transition:.3s;
+}
+
+p {
+  padding: 0 !important;
+  margin: 0 !important;
+}
